@@ -1,19 +1,11 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  }
-}
-
-{
-  "name": "Python 3.9 Environment",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",  // Use a base image with Python 3.9
+  "name": "Python 3.9 Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
   "settings": {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/bin/python"
   },
   "extensions": [
-    "ms-python.python",
-    "ms-azuretools.vscode-docker"
+    "ms-python.python"
   ],
-  "postCreateCommand": "pip install -r requirements.txt",
-  "remoteUser": "vscode"
+  "postCreateCommand": "pip install -r requirements.txt"
 }
