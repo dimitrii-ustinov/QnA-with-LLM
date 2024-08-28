@@ -1,5 +1,5 @@
 {
-  "name": "Python 3.9 Dev Container",
+  "name": "Python 3.9",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
   "settings": {
     "python.pythonPath": "/usr/local/bin/python"
